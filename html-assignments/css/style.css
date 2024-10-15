@@ -8,3 +8,9 @@ header, footer {
 ul {
     list-style: square;
 }
+site-title {
+    color: bisque;
+}
+my-image {
+    box-shadow: 0px 0px 2px 1px black; ;
+}
