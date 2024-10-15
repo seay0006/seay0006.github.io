@@ -22,7 +22,3 @@ li:nth-child(odd){
     background-image: url("notes.html");
     background-color: aquamarine;
 }
-a: link{
-    color: red;
-}
-}
