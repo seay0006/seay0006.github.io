@@ -5,8 +5,6 @@ header, footer {
     background-color: blue;
 }
 /* adding class selector */
-
-
-ul.b {
-    list-style-type: square;
+ul {
+    list-style: square;
 }
