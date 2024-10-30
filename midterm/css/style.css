@@ -1,22 +1,38 @@
+body{
+    body style= "background-color: #aad4cf";
+}
+
 .body{
     background-color: #aad4cf;
 }
-.container{
-    width: ;
-    height: ;
+header{
+    background-color: #aad4cf;
+}
+    
     
 }
 .standard{
-    width: 200px;
+    height: 15px;
+    width: 50px;
     float: left;
 }
 ul{
+    /* this is the top three clickable links at the top of the page */
     list-style-type: none;
+    ;
     margin: 0;
     padding: 0;
-
 }
+
 /* not working below (return on a later date) */
 .footer{
-    float: left;
+    float: right;
+}
+img.one{
+    height: 120%;
+    width: auto;
+}
+img.two{
+   height: 20%;
+   width: 20%;
 }
