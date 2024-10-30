@@ -1,0 +1,22 @@
+.body{
+    background-color: #aad4cf;
+}
+.container{
+    width: ;
+    height: ;
+    
+}
+.standard{
+    width: 200px;
+    float: left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+/* not working below (return on a later date) */
+.footer{
+    float: left;
+}
