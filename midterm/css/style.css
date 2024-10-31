@@ -26,8 +26,11 @@ img.one{
     width: 400px
 }
 img.two{
-   height: 20%;
-   width: 20%;
+   height: 30%;
+   width: 30%;
+   float: left;
+   margin: 0;
+   padding-right: 20px;
 }
 /* not working below (return on a later date) */
 .footer{
@@ -45,8 +48,10 @@ ul1{
     padding: 20px;
     margin: 20px;
 }
-.div{
-    height: 400px;
-    width: 500px;
-    background-color: #aad4cf;
+img.wide{
+    height: ;
+}
+.container1{
+    width: 860px;
+    margin: 0 ;
 }
