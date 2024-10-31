@@ -1,15 +1,12 @@
-body{
-    body style= "background-color: #aad4cf";
-}
-
 .body{
     background-color: #aad4cf;
 }
 header{
     background-color: #aad4cf;
 }
-    
-    
+
+.container{
+
 }
 .standard{
     height: 15px;
@@ -23,16 +20,18 @@ ul{
     margin: 0;
     padding: 0;
 }
-
-/* not working below (return on a later date) */
-.footer{
-    float: right;
-}
 img.one{
-    height: 120%;
-    width: auto;
+    border: 6px;
+    width: 400px
 }
 img.two{
    height: 20%;
    width: 20%;
+}
+/* not working below (return on a later date) */
+.footer{
+    float: right;
+}
+ul1{
+    
 }
