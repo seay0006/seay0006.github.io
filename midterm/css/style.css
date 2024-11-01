@@ -1,8 +1,14 @@
 .body{
-    background-color: #aad4cf;
+
 }
+
 header{
+    /* things below arent making changes, RETURN */
+    /* background-image: url("../images/lone-starfish-wide.jpg");
     background-color: #aad4cf;
+    background-repeat: no-repeat;
+    /* background-position: 10px 50px; */
+    /* background-size: 100px 100px; */ */
 }
 
 .container{
