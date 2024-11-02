@@ -1,10 +1,15 @@
 html{
-    /* background-color: #aad4cf; */
+    background-color: #aad4cf;
+}
+title{
+
 }
 .body{
     background-color: #D4E9E7;
+    max-width: 1000px;
 }
 header{
+    background-color: #D4E9E7;
     padding: 0px;
     text-align: center;
     text-transform:;
@@ -14,7 +19,7 @@ header{
     width: 1000px;
 }
 .container{
-    /* background-color: #D4E9E7;
+     background-color: #D4E9E7;
 width: 1000px;
 border: 1px solid black; */
 }
@@ -22,11 +27,17 @@ border: 1px solid black; */
     width: 860px;
     margin: 0 ;
 }
+
+h3{
+    background-color: #D4E9E7;
+    max-width: 1000px;
+}
 .standard{
     /* small starfish photo */
     height: 15px;
     width: 50px;
     float: left;
+    padding-bottom: 50px;
 }
 ul{
     /* this is the top three clickable links at the top of the page */
@@ -39,6 +50,10 @@ img.one{
     /* border: 6px;
     width: 1001px;
     height: 1000px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 img.two{
    height: 30%;
@@ -55,7 +70,6 @@ footer{
 
 /* bottom box */
 .p{
-    
     width: 100px;
     height: 100px;
     border: 5px solid black;
@@ -69,15 +83,18 @@ footer{
 }
 .content{
     background-color: #D4E9E7;
-    width: 100ppx;
-    height: 100ppx;
     border: 1px solid #D4E9E7;
     padding: 5px;
     margin: 2px;
+    max-width: 1000px;
 }
 
 div.relative{
     position: relative;
     left: 30px;
     border: 3px solid #D4E9E7;
+}
+.content1{
+    max-width: 1000px;
+    background-color: #D4E9E7;
 }
