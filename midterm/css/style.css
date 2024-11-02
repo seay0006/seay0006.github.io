@@ -173,3 +173,11 @@ div5{
     bottom: -3px;
     
 }
+/* moving the list of facts over a bit */
+div6{
+    position: relative;
+    left: 10px;
+}
+.footer{
+    text-align: right;
+}
