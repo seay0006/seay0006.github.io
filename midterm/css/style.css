@@ -98,3 +98,49 @@ div.relative{
     max-width: 1000px;
     background-color: #D4E9E7;
 }
+/* container holding the top image and text */
+.container2{
+position: relative;
+text-align: center;
+color: white;
+}
+.centered{
+    position: absolute;
+    top: 75%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+}
+/* home hyperlink position */
+/* must be relative to create space between text below and the top */
+/* all are 250px apart */
+.hyperlink1{
+    position: relative;
+    top: 100%;
+    left: 150px;
+}
+/* story hyperlink position */
+.hyperlink2{
+    position: absolute;
+    top: 370px;
+    left: 450px;
+}
+/* contact hyperlink position */
+.hyperlink3{
+    position: absolute; 
+    top: 370px;
+    left: 700px;
+
+
+}
