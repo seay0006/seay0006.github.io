@@ -144,6 +144,7 @@ a:active{
 
 
 }
+/* vl-vl1 are the vertical lines at the top */
 .vl{
     position: absolute;
     height: 50px;
@@ -159,11 +160,13 @@ a:active{
     top: 361px;
     border-left: 1px solid black;
 }
+/* send is the box for the send box */
 .send{
     height: 25px;
     width: 45px;
     border: 0.5px solid black;
 }
+/* div5 is the text within the send box */
 div5{
     position: relative;
     left: 5px;
