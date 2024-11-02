@@ -62,12 +62,6 @@ img.two{
    margin: 0;
    padding-right: 20px;
 }
-/* not working below (return on a later date) */
-footer{
-    background-color: #D4E9E7;
-    width: 1002px;
-}
-
 /* bottom box */
 .p{
     width: 100px;
@@ -178,6 +172,9 @@ div6{
     position: relative;
     left: 10px;
 }
-.footer{
+/* moving text to the right side and adjustig to match */
+footer{
     text-align: right;
+    position: relative;
+    right: 5px;
 }
