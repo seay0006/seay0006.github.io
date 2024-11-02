@@ -128,7 +128,7 @@ a:active{
 .hyperlink1{
     position: relative;
     top: 100%;
-    left: 150px;
+    left: 125px;
 }
 /* story hyperlink position */
 .hyperlink2{
@@ -140,7 +140,22 @@ a:active{
 .hyperlink3{
     position: absolute; 
     top: 370px;
-    left: 700px;
+    left: 750px;
 
 
+}
+.vl{
+    position: absolute;
+    height: 50px;
+    left: 350px;
+    top: 361px;
+    border-left: 1px solid black;
+
+}
+.vl1{
+    position: absolute;
+    height: 50px;
+    right: 420px;
+    top: 361px;
+    border-left: 1px solid black;
 }
