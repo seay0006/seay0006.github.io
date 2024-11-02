@@ -1,12 +1,15 @@
+html{
+    /* background-color: #aad4cf; */
+}
 .body{
-background-color: #d0e4e2;
-
+    background-color: #D4E9E7;
+}
 }
 header{
     padding: 0px;
     text-align: center;
     text-transform:;
-     color: #ffffff;
+    
     background-image: url("../images/lone-starfish-wide.jpg");
     height: 340px;
     width: 1000px;
@@ -29,7 +32,7 @@ ul{
 }
 img.one{
     border: 6px;
-    width: 400px
+    width: 1001px
 }
 img.two{
    height: 30%;
@@ -39,20 +42,19 @@ img.two{
    padding-right: 20px;
 }
 /* not working below (return on a later date) */
-.footer{
-    float: right;
+footer{
+    background-color: #D4E9E7;
+    width: 1002px;
 }
-ul1{
 
-}
-/* try to get the box formed below contact to learn more */
+/* bottom box */
 .p{
-    background-color: #aad4cf;
+    
     width: 100px;
     height: 100px;
-    border: 4px solid black;
-    padding: 20px;
-    margin: 20px;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 2px;
 }
 img.wide{
     height: ;
@@ -60,4 +62,23 @@ img.wide{
 .container1{
     width: 860px;
     margin: 0 ;
+}
+.clearfix::after{
+    content:Your Message;
+    clear: both;
+    display: table;
+}
+.form2{
+
+    ;
+}
+
+div{
+    position: relative;
+    background-color: #D4E9E7 ;
+    width: 1100px;
+    border: 1px ;
+    padding: 50px;
+    margin: 20px;
+    
 }
