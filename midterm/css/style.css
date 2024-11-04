@@ -45,6 +45,7 @@ ul{
     margin: 0;
     padding: 0;
     font-size: xx-large;
+    color: black;
 }
 img.one{
     /* border: 6px;
@@ -102,9 +103,11 @@ color: white;
 }
 a:link{
     text-decoration: none;
+    color: black;
 }
 a:visited{
     text-decoration: none;
+    color: black;
 }
 a:hover{
     text-decoration: underline;
@@ -132,6 +135,7 @@ a:active{
     position: relative; 
     top: -165px;
     left: 77%;
+    
 
 
 }
