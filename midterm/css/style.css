@@ -30,7 +30,7 @@ border: 1px solid black; */
 
 h3{
     background-color: #D4E9E7;
-    max-width: 1000px;
+    max-width: 990px;
 }
 .standard{
     /* small starfish photo */
@@ -69,11 +69,6 @@ img.two{
     border: 5px solid black;
     padding: 5px;
     margin: 2px;
-}
-.clearfix::after{
-    content:Your Message;
-    clear: both;
-    display: table;
 }
 .content{
     background-color: #D4E9E7;
@@ -120,40 +115,43 @@ a:active{
 /* home hyperlink position */
 /* must be relative to create space between text below and the top */
 /* all are 250px apart */
+/* cant use relative (when the website moves the word isnt */
 .hyperlink1{
     position: relative;
-    top: 100%;
-    left: 125px;
+    top: 10px;
+    left: 15%;
 }
 /* story hyperlink position */
 .hyperlink2{
-    position: absolute;
-    top: 370px;
-    left: 450px;
+    position: relative;
+    left: 48%;
+    top: -80px;
 }
 /* contact hyperlink position */
 .hyperlink3{
-    position: absolute; 
-    top: 370px;
-    left: 750px;
+    position: relative; 
+    top: -165px;
+    left: 77%;
 
 
 }
 /* vl-vl1 are the vertical lines at the top */
+/* left vertical line */
 .vl{
-    position: absolute;
-    height: 50px;
-    left: 350px;
-    top: 361px;
-    border-left: 0.5px solid black;
+    position: relative;
+    height: 55px;
+    left: 37%;
+    top: -35px;
+    border-left: 0.5px solid rgb(0, 0, 0);
 
 }
+/* right vertical line */
 .vl1{
-    position: absolute;
+    position: relative;
     height: 50px;
-    left: 650px;
-    top: 361px;
-    border-left: 0.5px solid black;
+    left: 65%;
+    top: -125px;
+    border-left: 0.5px solid rgb(0, 0, 0);
 }
 /* send is the box for the send box */
 .send{
@@ -178,4 +176,8 @@ footer{
     text-align: right;
     position: relative;
     right: 5px;
+}
+.content1{
+    max-width: 1001px;
+    margin: auto;
 }
