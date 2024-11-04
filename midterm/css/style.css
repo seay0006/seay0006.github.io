@@ -1,12 +1,14 @@
 html{
     background-color: #aad4cf;
 }
-title{
-
-}
 .body{
     background-color: #D4E9E7;
     max-width: 1000px;
+}
+.story{
+    position: relative;
+    max-width: ;
+
 }
 header{
     background-color: #D4E9E7;
@@ -18,10 +20,12 @@ header{
     height: 340px;
     width: 1000px;
 }
+/* box for contact learn more */
 .container{
      background-color: #D4E9E7;
-width: 1000px;
-border: 1px solid black; */
+     position: relative;
+    width: 100%;
+    border: 1px solid black; */
 }
 .container1{
     width: 860px;
@@ -88,6 +92,7 @@ div.relative{
 .content1{
     max-width: 1000px;
     background-color: #D4E9E7;
+    position: relative;
 }
 /* container holding the top image and text */
 .container2{
@@ -100,6 +105,8 @@ color: white;
     top: 75%;
     left: 51%;
     transform: translate(-50%, -50%);
+    font-size: xxx-large;
+    
 }
 a:link{
     text-decoration: none;
@@ -171,7 +178,7 @@ div5{
     
 }
 /* moving the list of facts over a bit */
-div6{
+.a1{
     position: relative;
     left: 10px;
 }
