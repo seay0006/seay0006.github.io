@@ -7,15 +7,11 @@ html{
 }
 .story{
     position: relative;
-    max-width: ;
-
 }
 header{
     background-color: #D4E9E7;
     padding: 0px;
     text-align: center;
-    text-transform:;
-    
     background-image: url("../images/lone-starfish-wide.jpg");
     height: 340px;
     width: 1000px;
@@ -29,7 +25,6 @@ header{
 }
 .container1{
     width: 860px;
-    margin: 0 ;
 }
 
 h3{
