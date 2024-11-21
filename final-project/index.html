@@ -19,8 +19,16 @@
     </nav>
     
     <div class="searchbar">
-        <!-- insert search bar -->
+        <!--Search bar below-->
+        <form class="example" action="action_page.php"></form>
+        <input type="text" placeholder="Search.." name="searchbar">
+        <button type="submit"><i class="fa fa-search"></i></button>
     </div>
+    <div class="searchbuttom">
+        <!--Search bar icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </div>
+    
 </header>
 </div>
 
@@ -28,30 +36,36 @@
     <!-- box wrapping around h1 - connect with us -->
 <div class="box1">
 <img src="../final-project/images/main-banner.jpg" alt="main-banner">
-    
+<div id="#home">
 <h1>Welcome to Three Star Media</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad perspiciatis omnis vel dolorum. Modi, libero totam fugit atque, deserunt, vero reiciendis qui maxime sequi enim quod nam quisquam nisi nihil!</p>
-        
+    </div>  
 </div>
     <!-- connect with us yellow box -->
 <div class="box2">
     <p>
     Connect with us 
     <!-- insert an arrow pointing right -->
+    <p>Right arrow: <i class="arrow right"></i></p>
+    <!-- connect css to arrow -->
    </p>
 </div>
 <div class="box3">
     
-        <img src="../final-project/images/about-us.jpg" alt="about us">
+        <img src="../final-project/images/about-us.jpg" alt="aboutus">
+        <div id="aboutus">
         <h2>About Us</h2>
         <p>Commodi eos officiis quo, eligendi soluta, dolores, illo odio mollitia impedit repudiandae veniam quas! Eos a ea, non alias velit sequi quas!
+        </div>
         <br>
         <br>
          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur nostrum distinctio ex deleniti nam voluptatibus et sint dolor cupiditate. Quidem ex cum, autem quia aut inventore quos sint laboriosam consectetur.</p>
         
 </div>
 <div class="box4">
+    <div id="services">
     <h2>Our Services</h2>
+    
     <img src="../final-project/images/digital.jpg" alt="digital">
     
         <h3>Digital Transformation</h3>
@@ -62,9 +76,10 @@
             <br>
             <!-- Make a black box around p1 -->
             <p>Digital Plans</p>
+            <p>Right arrow: <i class="arrow right"></i></p>
             <!-- Add white arrow pointing right -->
             
-        
+        </div>
         
 </div>
 <div class="box4">
@@ -77,9 +92,11 @@
     
     <br>
     <br>
-    <!-- Make a black box around p1 -->
+    <!-- Make a black box around p -->
     <p>Marketing Plans</p>
     <!-- Add white arrow pointing right -->
+    <p>Right arrow: <i class="arrow right"></i></p>
+    <!-- add css to arrow -->
     
 </div>
 <div class="box4">
@@ -93,6 +110,7 @@
         <br>
         <!-- Make a black box around p1 -->
         <p>Video Plans</p>
+        <p>Right arrow: <i class="arrow right"></i></p>
         <!-- Add white arrow pointing right -->
     </div>
     <div class="box4">
@@ -104,9 +122,10 @@
             
             <br>
             <br>
-            <!-- Make a black box around p1 -->
+            <!-- Make a black box around p -->
             <p>Web Plans</p>
             <!-- Add white arrow pointing right -->
+            <p>Right arrow: <i class="arrow right"></i></p>
         </div>
         <div class="box4">
             <img src="../final-project/images/print.jpg" alt="print">
@@ -119,14 +138,17 @@
                 <br>
                 <!-- Make a black box around p1 -->
                 <p>Print Plans</p>
+                <p>Right arrow: <i class="arrow right"></i></p>
                 <!-- Add white arrow pointing right -->
-                
+                <br>
+                <br>
             
             </div>
             <!-- Our vision section -->
         <div class="box5">
             <!-- box5 needs white font -->
             <h3>Our Vision</h3>
+            <img src="../final-project/images/vision.jpg" alt="vision">
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos eligendi mollitia minima amet, ab quibusdam accusantium explicabo doloremque nam porro quasi assumenda repellat. Quos, dolore nisi nulla unde vero magni?
             </p>
@@ -135,12 +157,13 @@
             <br>
         
         <div class="box6">Learn More</div>
+        <p>Right arrow: <i class="arrow right"></i></p>
         <!-- Add white arrow pointing right -->
-        <img src="../final-project/images/vision.jpg" alt="vision">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laboriosam nesciunt, consequuntur exercitationem voluptate quisquam iure, veritatis eveniet delectus, voluptas atque nemo sunt illo ullam! Quis cupiditate voluptatem quisquam numquam.
-        </p>
+        
+            <br>
+            <br>
         </div>
+        <div id="team"></div>
         <h2>Our Team</h2>
         <div class="box7">
         <p>
@@ -151,7 +174,7 @@
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corporis nostrum debitis alias sed ullam id cum quis provident repudiandae? Dolores quo quasi molestiae, blanditiis cumque labore ea ipsum optio!
         </p>
-        
+        </div>
         
         </div>
         <div class="box7">
@@ -164,6 +187,7 @@
             </p>
             </div>
             <p>
+                <div id="contact">
             <h2>Contact Us</h2>
             <h3>Send us a message</h3>
             Full name <br>
@@ -179,7 +203,7 @@
              <!--insert fillable box (large) -->
              <br>
              <br>
-             
+            </div>
              <div class="sendbutton">
                 <!-- Send (text for send button) -->
 
@@ -187,11 +211,23 @@
             <h3>Hours of operation</h3>
             <!-- Add grid with following content -->
             <p>
-            Days  Hours
-             <br>
-                 Monday - Friday  9 AM - 6 PM
-             <br>
-                 Saturday - Sunday  Closed
+                <!-- Add css to table below -->
+                <div class="hourstable">
+                <table>
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+                    <tr>
+                        <td> Monday - Friday </td>
+                        <td> 9 AM - 6 AM </td>
+                    </tr>
+                    <tr>
+                        <td> Saturday - Sunday </td>
+                        <td> Closed </td>
+                    </tr>
+                </table>
+                </div>
             </p>
              <br>
              <br>
@@ -203,7 +239,7 @@
              <br>
              <!-- insert black box for footer -->
              <footer>
-                &copy; Copyright three Star Media, 2020
+                &copy; Copyright Three Star Media, 2020
                 <br>
                 <br>
                 All images are taken from Unsplash
