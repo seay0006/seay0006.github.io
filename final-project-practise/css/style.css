@@ -50,21 +50,28 @@ html{
     max-width: 1200px;
 }
 /* css below is written by Colin Seay*/
+body{
+    text-align: center;
+}
+
 .img{
     width: 50%;
     height: auto;
 }
-.container{
+.container1{
     width: 1000px;
     border: 15px solid #222;
     padding: 50px;
     margin: 20px;
     opacity: 80%;
 }
-nav{
+.li{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+   
+}
+img{
+    height: auto;
+    width: 50px;
 }
 a link{
     color: black;

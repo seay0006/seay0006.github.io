@@ -1,6 +1,12 @@
 
 
 /* Color values are, #c78c06, #ffe6ac, #222, white */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .open-sans{
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
