@@ -1,21 +1,21 @@
 
 
 /* Color values are, #c78c06, #ffe6ac, #222, white */
-
+.open-sans{
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    /* weight can be from 300 - 800 */
+    font-weight: <300>;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+  }
 
 
 html{
     max-width: 1200px;
     background-color: #222;
-    .open-sans{
-        font-family: "Open Sans", serif;
-        font-optical-sizing: auto;
-        /* weight can be from 300 - 800 */
-        font-weight: <300>;
-        font-style: normal;
-        font-variation-settings:
-          "width" 100;
-      }
+    
 }
 /* css is below */
 /* .allbox{
@@ -33,9 +33,31 @@ html{
         margin: 20px;
    
 }
+
+/* "Welcome to Three Star Media" */
+h1{
+    height: 800px;
+position: absolute;
+top: 450px ;
+background-color: #222;
+opacity: 40%;
+}
+.textblock1{
+    text-align: left;
+    text-wrap: auto;
+    color: white;
+    font-size: 60px;
+}
+p{
+color: white;
+}
+
+.box{
+    max-width: 1200px;
+}
 /* box wraps around h1 - connect with us */
 .box1{
-
+    
 }
 /* box wraps around "connect with us yellow box" */
 .box2{
@@ -47,7 +69,7 @@ html{
 }
 /* container wrapping around small box assets near bottom */
 .box4{
-
+    background-color: #ffe6ac;
 }
 /* box wraps around "Our Vision" */
 .box5{
@@ -55,5 +77,17 @@ html{
 }
 /*box wraps around "Learn more" below "Our Vision" */
 .box6{
+
+}
+/*Contact Us  */
+.box7{
+
+}
+/* contact us forms with fillable areas */
+.contact{
+
+}
+/* send button below below contact information */
+.sendbutton{
 
 }
