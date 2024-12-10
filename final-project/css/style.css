@@ -95,12 +95,19 @@ h1{
     height: auto;
 }
 /*  */
-.box3{
+.flex-container{
+    display: flex;
+    align-content: left;
     background-color: #ffe6ac;
+    flex-direction: column;
 }
-.AboutUsImg{
-    
+.aboutusimg{
+    width: 760px;
+    max-width: 50%;
+    max-height: 50%;
 }
+   
+
 /* container wrapping around small box assets near bottom */
 .box4{
     background-color: #ffe6ac;
