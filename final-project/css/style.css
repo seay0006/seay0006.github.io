@@ -1,17 +1,4 @@
 
-@media only screen and (max-width 760px){
-.flex-container1{
-        display: flex;
-        flex-direction: column;
-        font-size: 50px;
-    }
+.ul{
+    list-style-type: none;
 }
-.ul.a{
-    text-align: center;
-    list-style-position: center;
-    font-size: 50px;
-}
-.flex-container2{
-
-     
-    }
