@@ -18,13 +18,13 @@ html{
     
 }
 /* css is below */
-.allbox{
+/* .allbox{
     max-width: 1200px;
     @media only and screen(min-width: 760px;){
      
     }
 } */
-/* box above the first image
+/* box above the first image */
 .navigation{
     background-color: #c78c06;
         width: 1200px;
@@ -46,7 +46,6 @@ h1{
 }
 .textblock1{
     text-align: left;
-    text-transform: ;
     text-wrap: auto;
     color: white;
     font-size: 70px;
