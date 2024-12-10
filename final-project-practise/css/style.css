@@ -50,11 +50,26 @@ html{
     max-width: 1200px;
 }
 /* css below is written by Colin Seay*/
-
+.img{
+    width: 50%;
+    height: auto;
+}
 .container{
     width: 1000px;
     border: 15px solid #222;
     padding: 50px;
     margin: 20px;
-    opacity: 40%;
+    opacity: 80%;
+}
+a link{
+    color: black;
+}
+a :visited{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+a:active{
+    color: black;
 }
