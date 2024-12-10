@@ -31,22 +31,24 @@ html{
         border: 15px solid #c78c06;
         padding: 50px;
         margin: 20px;
-   
 }
-
+.imagebanner{
+    width: 760px;
+}
 /* "Welcome to Three Star Media" */
 h1{
     height: 800px;
-position: absolute;
-top: 450px ;
-background-color: #222;
-opacity: 40%;
+    position: absolute;
+    top: 320px ;
+    width: 1200px;
+    background-color: #222;
+    opacity: 40%;
 }
 .textblock1{
     text-align: left;
     text-wrap: auto;
     color: white;
-    font-size: 60px;
+    font-size: 70px;
 }
 p{
 color: white;
