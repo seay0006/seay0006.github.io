@@ -6,7 +6,7 @@
 
     ul{
     position: relative;
-    right: 250px;
+    right: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -20,6 +20,14 @@
 }
 .searchbar{
     size-adjust: 100%;
+}
+.blackbox{
+    background-color: #c78c06;
+    width: 760px;
+    border: 15px solid #c78c06;
+    padding: 5px;
+    margin: 5px;
+    height: 150px;
 }
 .open-sans{
     font-family: "Open Sans", serif;
@@ -35,12 +43,14 @@ html{
 }
 /* box above the first image */
 .navigation{
-    background-color: #c78c06;
-        width: 1200px;
-        border: 15px solid #c78c06;
-        padding: 50px;
-        margin: 20px;
-        height: 75px;
+    background-color: #222;
+        width: 760px;
+        border: 5px solid #222;
+        padding: 0px;
+        margin: 0px;
+        height: 375px;
+}
+
 }
 .imagebanner{
     width: 760px;
@@ -55,10 +65,19 @@ h1{
     opacity: 40%;
 }
 .textblock1{
+    max-width: 760px;
     text-align: left;
     text-wrap: auto;
     color: white;
     font-size: 70px;
+}
+.textblock2{
+    width: 760;
+    text-align: left;
+    text-wrap: auto;
+    color: white;
+    position: absolute;
+    top: 1000px;
 }
 .box{
     max-width: 1200px;
@@ -78,6 +97,9 @@ h1{
 /*  */
 .box3{
     background-color: #ffe6ac;
+}
+.AboutUsImg{
+    
 }
 /* container wrapping around small box assets near bottom */
 .box4{
