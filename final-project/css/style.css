@@ -1,12 +1,26 @@
 
 
 /* Color values are, #c78c06, #ffe6ac, #222, white */
-ul{
+/* For Mobile Phones */
+@media only screen and (max-width: 760px){
+
+    ul{
+    position: relative;
+    right: 250px;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
+    font-size: xx-large;
+    line-height: 2;
+    bottom: 20px;
 }
-
+.li1{
+    color: #222;
+}
+.searchbar{
+    size-adjust: 100%;
+}
 .open-sans{
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
@@ -18,8 +32,6 @@ ul{
   }
 html{
     max-width: 1200px;
-    background-color: #222;
-    algi
 }
 /* box above the first image */
 .navigation{
@@ -28,6 +40,7 @@ html{
         border: 15px solid #c78c06;
         padding: 50px;
         margin: 20px;
+        height: 75px;
 }
 .imagebanner{
     width: 760px;
@@ -36,8 +49,8 @@ html{
 h1{
     height: 800px;
     position: absolute;
-    top: 320px ;
-    width: 1200px;
+    top: 615px ;
+    width: 1350px;
     background-color: #222;
     opacity: 40%;
 }
@@ -46,9 +59,6 @@ h1{
     text-wrap: auto;
     color: white;
     font-size: 70px;
-}
-p{
-color: ;
 }
 .box{
     max-width: 1200px;
@@ -92,4 +102,5 @@ color: ;
 /* send button below below contact information */
 .sendbutton{
 
+}
 }
