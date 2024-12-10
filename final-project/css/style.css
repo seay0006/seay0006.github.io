@@ -1,116 +1,12 @@
 
-
-/* Color values are, #c78c06, #ffe6ac, #222, white */
-/* For Mobile Phones */
-@media only screen and (max-width: 760px){
-
-    ul{
-    position: relative;
-    right: 20px;
+@media only screen and (max-width 760px){
+    .flex-container1{
+        display: flex;
+        flex-direction: column;
+        font-size
+    }
+}
+ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: xx-large;
-    line-height: 2;
-    bottom: 20px;
-}
-.li1{
-    color: #222;
-}
-.searchbar{
-    size-adjust: 100%;
-}
-.blackbox{
-    background-color: #c78c06;
-    width: 760px;
-    border: 15px solid #c78c06;
-    padding: 5px;
-    margin: 5px;
-    height: 150px;
-}
-.open-sans{
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    /* weight can be from 300 - 800 */
-    font-weight: <300>;
-    font-style: normal;
-    font-variation-settings:
-      "width" 100;
-  }
-html{
-    max-width: 1200px;
-}
-/* box above the first image */
-.navigation{
-    background-color: #222;
-        width: 760px;
-        border: 5px solid #222;
-        padding: 0px;
-        margin: 0px;
-        height: 375px;
-}
-
-}
-.imagebanner{
-    width: 760px;
-}
-/* "Welcome to Three Star Media" */
-h1{
-    height: 800px;
-    position: absolute;
-    top: 615px ;
-    width: 1350px;
-    background-color: #222;
-    opacity: 40%;
-}
-.textblock1{
-    max-width: 760px;
-    text-align: left;
-    text-wrap: auto;
-    color: white;
-    font-size: 70px;
-}
-.textblock2{
-    width: 760;
-    text-align: left;
-    text-wrap: auto;
-    color: white;
-    position: absolute;
-    top: 1000px;
-}
-.box{
-    max-width: 1200px;
-}
-/* box wraps around h1 - connect with us */
-.box1{
-    
-}
-/* box wraps around "connect with us yellow box" */
-.box2{
-
-}
-/*  */
-.aboutus.jpg{
-    width: 500px;
-    height: auto;
-}
-/*  */
-.flex-container{
-    display: flex;
-    align-content: left;
-    fill: #ffe6ac;
-    flex-direction: column;
-}
-.aboutusimg{
-    width: 760px;
-    max-width: 50%;
-    max-height: 50%;
-}
-   
-
-
-
-@media only scren and(min-width: 760px;){
-
+    font-size: 50px;
 }
