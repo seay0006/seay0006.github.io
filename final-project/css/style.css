@@ -6,19 +6,23 @@
     max-width: 760px;
     list-style-type: none;
     position: absolute;
-    width: 300px;
+    width: 760px;
     border: 15px solid #222;
     padding: 5px;
     margin: 0px;
     background-color: #222;
     text-align: center;
+    top: 175px;
 }
 .a1{
-    /* color: #c78c06; */
+    color: #222;
     text-decoration: none;  
 }
-
+a{
+    color: #c78c06 ;
+}
 .center{
+    max-width: 760px;
     margin: center;
     width: 100%;
     border: 0px solid black;
@@ -27,7 +31,16 @@
 }
 
 .banner{
+    max-width: 760px;
+    position: absolute;
+    width: 760px;
+    border: 15px solid #c78c06;
+    padding: 5px;
+    margin: 0px;
+    background-color: #c78c06;
     text-align: center;
+    text-align: bottom;
     list-style-type: none;
+    
     
 }
