@@ -376,3 +376,74 @@ a{
         border-left: 12px solid rgb(255, 255, 255);
         border-bottom: 10px solid transparent;
         z-index: 3;
+    }
+    /* OUR VISION SECTION */
+    /* <div class="ourvisionsection">
+    <img src="../final-project/images/vision.jpg" class="ourvision">
+     <div class="ourvisiontitle"><h2>Our Vision</h2></div>
+     <div class="ourvision-fillertext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veritatis nulla suscipit ipsa, excepturi accusantium consequatur quo doloremque vel autem quasi, id tempore praesentium dolorem. Atque consequuntur provident voluptate ipsa!</div>
+     <div class="ourvision-box">
+     <div class="ourvision-learnmore">Learn More</div>
+    </div> */
+.ourvisionsection{
+    position: absolute;
+    top: 5675px;
+    left: 60px;
+}
+.ourvision{
+    position: relative;
+    width: 730px;
+    height: 300px;
+}
+.ourvisiontitle{
+    position: relative;
+    top: -275px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+.ourvision-fillertext{
+    position: relative;
+    top: -265px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+}
+.ourvision-box{
+    position: absolute;
+    left: 20px;
+    width: 210px;
+    height: 60px;
+    top: 225px;
+    background-color: #222;
+    border: 1px solid #c78c06;
+    color: white;
+    text-align: center;
+    opacity: 60%;
+    z-index: 1;
+}
+.ourvision-learnmore{
+    position: relative;
+    top: -215px;
+    left: 85px ;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    z-index: 3;
+}
+.ourvision-rightarrow{
+    position: relative;
+        left: 180px;
+        top: -235px;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: 12px solid rgb(255, 255, 255);
+        border-bottom: 10px solid transparent;
+        z-index: 3;
+}
+    /* OUR TEAM SECTION BELOW */
+
+.ourteam-section{
+    position: absolute;
+    top: 6000px;
+    left: 70px;
+}
