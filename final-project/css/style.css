@@ -445,5 +445,22 @@ a{
 .ourteam-section{
     position: absolute;
     top: 6000px;
-    left: 70px;
+    left: 60px;
+}
+.johndoe-section{
+    width: 730px;
+    background-color: #ffe6ac;
+    left: ;
+}
+.bob-rite-section{
+    background-color: #ffe6ac;
+}
+.line{
+    border-bottom: 1px #c78c06;
+}
+.johndoeimg{
+width: 730px;
+}
+.bobriteimg{
+width: 730px;
 }
