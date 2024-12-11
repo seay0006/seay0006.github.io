@@ -122,12 +122,24 @@ a{
     max-width: 745px;
     border: 5px #ffe6ac;
     margin: 15px #ffe6ac;
-    margin: 0;
+    text-align: center;
     
 }
 .aboutus{
     font-size: x-large;
 }
 .flex-container5{
-    
+    position: absolute; 
+}
+.ourservices{
+    position: absolute;
+    top: 1550px;
+    left: 70px;
+    font-size: x-large;
+}
+.digital{
+    position: absolute;
+    top: 1675px;
+    left: 70px;
+
 }
