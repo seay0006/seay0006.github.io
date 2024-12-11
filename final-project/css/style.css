@@ -131,12 +131,21 @@ a{
 }
 .flex-container5{
     position: absolute; 
+    background-color: #ffe6ac;
+  
 }
 .ourservices{
     position: absolute;
+    width: 745px;
     top: 1550px;
     left: 70px;
     font-size: x-large;
+}
+.digitalplans{
+    position: absolute;
+    left: 100px;
+    width: 745px;
+    top: 2300px;
 }
 .digital{
     position: absolute;
@@ -145,7 +154,16 @@ a{
     width: 700px;
 }
 .digitaltransformation{
+    width: 745px;
     position: absolute;
     top: 2150px;
+    left: 70px;
+}
+.digitaltext{
+    max-width: 745px;
+    width: 740px;
+    height: ;
+    position: absolute;
+    top: 2225px;
     left: 70px;
 }
