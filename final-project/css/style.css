@@ -143,12 +143,13 @@ a{
     font-size: x-large;
     background-color: white;
 }
+/* DIGITAL TRANSFORMATION BELOW */
 .digitalplans{
     position: absolute;
-    left: 100px;
-    width: 180px;
+    left: 95px;
+    width: 210px;
     height: 60px;
-    top: 2325px;
+    top: 2355px;
     background-color: #222;
     color: white;
     text-align: center;
@@ -160,22 +161,24 @@ a{
     width: 730px;
     height: auto;
 }
-
-  
+.h2{
+    color: #222;
+}
   .arrow-right {
     position: absolute;
-    left: 150px;
+    left: 180px;
     top: 20px;
     width: 0;
     height: 0;
     border-top: 10px solid transparent;
     border-left: 12px solid white;
 	border-bottom: 10px solid transparent;
+    z-index: 5;
 }
 .digitaltransformation{
     background-color: #ffe6ac;
     width: 730px;
-    height: 200px;
+    height: 280px;
     position: absolute;
     top: 2162px;
     left: 60px;
@@ -183,17 +186,193 @@ a{
 .titledigital{
     position: absolute;
     font-size: x-large;
+    top: -5px;
     left: 25px;
     width: 700px;
+    height: 100px;
+    z-index: 3;
+    margin: 5px;
 }
-
 .digitaltext{
     background-color: #ffe6ac;
     max-width: 745px;
-    width: 730px;
-    height: 200px;
+    width: 700px;
+    height: 100px;
     position: absolute;
-    top: 2240px;
-    left: 60px;
+    top: 2250px;
+    left: 70px;
     text-align: left;
 }
+
+/* MARKETING BELOW */
+.marketingplans{
+    position: absolute;
+    left: 20px;
+    width: 210px;
+    height: 60px;
+    top: 690px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+.marketingsection{
+    position: absolute;
+    background-color: #ffe6ac;
+    top: 2475px;
+    left: 60px;
+    width: 730px;
+    height: 775px;
+}
+.marketing{
+    width: 730px;
+    height: auto;
+}.marketing2{
+    position: relative;
+    font-size: x-large;
+    left: 30px;
+}
+.marketingtext{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.marketing-arrow-right{
+    position: absolute;
+    left: 170px;
+    top: 830px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 12px solid rgb(255, 255, 255);
+	border-bottom: 10px solid transparent;
+    z-index: 3;
+}
+/* VIDEO BELOW */
+.videoplans{
+    position: absolute;
+    left: 20px;
+    width: 210px;
+    height: 60px;
+    top: 690px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+.videosection{
+    position: absolute;
+    background-color: #ffe6ac;
+    top: 3275px;
+    left: 60px;
+    width: 730px;
+    height: 775px;
+}
+.video{
+    width: 730px;
+    height: auto;
+}.video2{
+    position: relative;
+    font-size: x-large;
+    left: 30px;
+}
+.videotext{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.video-arrow-right{
+    position: absolute;
+    left: 170px;
+    top: 1630px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 12px solid rgb(255, 255, 255);
+	border-bottom: 10px solid transparent;
+    z-index: 3;
+}
+/*  WEB DEVELOPMENT BELOW*/
+
+.webplans{
+    position: absolute;
+    left: 20px;
+    width: 210px;
+    height: 60px;
+    top: 690px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+.websection{
+    position: absolute;
+    background-color: #ffe6ac;
+    top: 4075px;
+    left: 60px;
+    width: 730px;
+    height: 775px;
+}
+.web{
+    width: 730px;
+    height: auto;
+}.web2{
+    position: relative;
+    font-size: x-large;
+    left: 30px;
+}
+.webtext{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.web-arrow-right{
+    position: absolute;
+    left: 170px;
+    top: 2430px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 12px solid rgb(255, 255, 255);
+	border-bottom: 10px solid transparent;
+    z-index: 3;
+}
+/* PRINT BELOW */
+    .printplans{
+        position: absolute;
+        left: 20px;
+        width: 210px;
+        height: 60px;
+        top: 690px;
+        background-color: #222;
+        color: white;
+        text-align: center;
+    }
+    .printsection{
+        position: absolute;
+        background-color: #ffe6ac;
+        top: 4875px;
+        left: 60px;
+        width: 730px;
+        height: 775px;
+    }
+    .print{
+        width: 730px;
+        height: auto;
+    }.print2{
+        position: relative;
+        font-size: x-large;
+        left: 30px;
+    }
+    .printtext{
+        position: relative;
+        left: 10px;
+        top: 5px;
+    }
+    .print-arrow-right{
+        position: absolute;
+        left: 150px;
+        top: 3230px;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: 12px solid rgb(255, 255, 255);
+        border-bottom: 10px solid transparent;
+        z-index: 3;
