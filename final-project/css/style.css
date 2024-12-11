@@ -124,6 +124,7 @@ a{
     margin: 15px #ffe6ac;
     text-align: center;
     
+    
 }
 .aboutus{
     font-size: x-large;
@@ -141,5 +142,10 @@ a{
     position: absolute;
     top: 1675px;
     left: 70px;
-
+    width: 700px;
+}
+.digitaltransformation{
+    position: absolute;
+    top: 2150px;
+    left: 70px;
 }
