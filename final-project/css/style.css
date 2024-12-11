@@ -137,34 +137,63 @@ a{
 }
 .ourservices{
     position: absolute;
-    width: 745px;
+    width: 750px;
     top: 1550px;
     left: 70px;
     font-size: x-large;
+    background-color: white;
 }
 .digitalplans{
     position: absolute;
     left: 100px;
-    width: 745px;
-    top: 2300px;
+    width: 180px;
+    height: 60px;
+    top: 2325px;
+    background-color: #222;
+    color: white;
+    text-align: center;
 }
 .digital{
     position: absolute;
     top: 1675px;
-    left: 70px;
-    width: 700px;
+    left: 60px;
+    width: 730px;
+    height: auto;
+}
+
+  
+  .arrow-right {
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 12px solid white;
+	border-bottom: 10px solid transparent;
 }
 .digitaltransformation{
-    width: 745px;
+    background-color: #ffe6ac;
+    width: 730px;
+    height: 200px;
     position: absolute;
-    top: 2150px;
-    left: 70px;
+    top: 2162px;
+    left: 60px;
 }
-.digitaltext{
-    max-width: 745px;
-    width: 740px;
-    height: ;
+.titledigital{
     position: absolute;
-    top: 2225px;
-    left: 70px;
+    font-size: x-large;
+    left: 25px;
+    width: 700px;
+}
+
+.digitaltext{
+    background-color: #ffe6ac;
+    max-width: 745px;
+    width: 730px;
+    height: 200px;
+    position: absolute;
+    top: 2240px;
+    left: 60px;
+    text-align: left;
 }
