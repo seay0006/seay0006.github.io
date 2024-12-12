@@ -206,18 +206,18 @@ a{
     position: inherit;
     display: flex;
 
-    top: 100px;
+    top: 1001px;
     width: 759px;
 }
 .aboutus{
     position: relative;
     top: 100px;
+    left: 40px;
     font-size: xx-large;
 }
 .aboutusimg{
     position: relative;
     top: 140px;
-    left: 20%;
     border: 5px #ffe6ac;
     z-index: -2;
 }
@@ -239,7 +239,6 @@ left: -10px;
 width: 0px;
 }
 .bigcontainer{
-    !important
     position: absolute;
     display: block;
     left: 15px;
@@ -631,7 +630,6 @@ th{
 /* _____________________________________________________________________ */
 /* DESKTOP VERSION */
 @media only screen and (min-width: 760px){
-    max-width: 1200px;
     
 .homebutton{
     position: relative;
@@ -1188,5 +1186,4 @@ th{
     background-color: #222;
     color: #c78c06;
     width: 100%;
-} */
-} */
+}
