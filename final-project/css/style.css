@@ -6,6 +6,15 @@ body{
 @media only screen and (max-width: 760px){
     max-width: 760px;
 }
+
+.search{
+    position: relative;
+    top: 500px;
+    width: 100%;
+    left: 120px;
+
+}
+
 .hyperlinks{
     font-size: x-large;
     width: 760px;
@@ -572,6 +581,10 @@ th{
 }
 /* DESKTOP VERSION */
 @media only screen and (min-width: 760px){
-    max-width: 1200px;
+
+.
+
+
+
 }
 
