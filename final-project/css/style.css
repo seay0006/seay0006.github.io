@@ -441,7 +441,13 @@ a{
         z-index: 3;
 }
     /* OUR TEAM SECTION BELOW */
-
+.jonh-doe-name{
+    position: relative;
+    left: 100px;
+}
+h2{
+    text-align: left;
+}
 .ourteam-section{
     position: absolute;
     top: 6000px;
@@ -450,17 +456,57 @@ a{
 .johndoe-section{
     width: 730px;
     background-color: #ffe6ac;
-    left: ;
+    height: 700px;
 }
 .bob-rite-section{
     background-color: #ffe6ac;
-}
-.line{
-    border-bottom: 1px #c78c06;
+    height: 700px;
 }
 .johndoeimg{
 width: 730px;
 }
 .bobriteimg{
 width: 730px;
+}
+
+.contact-us-section{
+    position: absolute;
+    top: 7500px;
+    left: 60px;
+    width: 760px;
+}
+.fullnamebox{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    z-index: 3;
+}
+
+.hoo{
+    grid-gap: 0;
+    text-align: center;
+    position: absolute;
+    top: 500px;
+}
+th, td{
+    width: 400px;
+    border: 1px solid #222;
+    padding: 15px;
+    text-align: left;
+}
+
+th{
+    background-color: #ffe6ac;
+}
+.googlemap{
+    width: 100px;
+    height: auto;
+}
+.footer{
+    position: ;
+    bottom: 1px;
+    text-align: left;
+    background-color: #222;
+    color: #c78c06;
+    
 }
