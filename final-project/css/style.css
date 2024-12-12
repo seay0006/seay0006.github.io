@@ -1,73 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 /* MOBILE VERSION MOCKUP */
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 @media only screen and (max-width: 760px){
-}
-
-.cwubutton{
-    z-index: 3;
-        width: 200px;
-        border: 5px solid #c78c06;
-        background-color: #c78c06;
-        color: #222;
-        padding: 10px;
-        margin: 10px;
-        height: 75px;
-        position: relative;
-        top: 900px;
-        left: 50px;
+    max-width: 760px;
 }
 .hyperlinks{
     font-size: x-large;
@@ -79,13 +16,8 @@ html{
 }
 .homebutton{
     position: relative;
-    top: 80px;
+    top: 120px;
     left: -17px;
-    color: #222;
-}
-.flex-container1{
-    background-color: #c78c06;
-    z-index: -3;
 }
 .flex-container2{
     font-size: x-large;
@@ -120,6 +52,7 @@ a{
 }
 .center{
     max-width: 760px;
+    margin: center;
     width: 100%;
     border: 0px solid black;
     padding: 1px;
@@ -131,15 +64,16 @@ a{
     width: 760px;
     max-width: 760px;
     left: -8px;
+    margin: center ;
 }
 .bannerimage{
     max-width: 760px;
     position: absolute;
-    top: 525px;
-    left: 1px;
+    top: 450px;
+    left: 48px;
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 760px;
     z-index: -2;
 }
 .banner{
@@ -153,7 +87,7 @@ a{
     margin: 0px;
     background-color: #c78c06;
     text-align: center;
-    bottom: 750px;
+    bottom: 775px;
     z-index: -1;
 }
 .bannerbackdrop{
@@ -167,8 +101,8 @@ a{
     margin: 0px;
     background-color: #222;
     text-align: left;
-    top: 600px;
-    left: 0px;
+    top: 500px;
+    left: 48px;
     opacity: 60%;
     z-index: -2;
 }
@@ -178,70 +112,80 @@ a{
     margin-top: 350px;
     margin-left: 55px;
     color: white;
-    opacity: 100%;
+    fill-opacity: 100%;
     position: relative;
-    top: 300px;
+    top: 120px;
 
 }
 .fillertext{
     float: left;
     position: relative;
-    top: 320px;
+    top: 100px;
     margin-left: 55px;
     color: white;
     
 }
 .connectwithus{
+    position: relative;
+    left: 10px;
+    top: 1050px;
+
+   
+}
+.connect{
     position: absolute;
-    bottom: -140px;
-    left: 75px;
-    width: 175px;
-    height: 75px;
-    background-color: #c78c06;
-    text-align: center;
-    margin: auto;
-    line-height: 75px;
+    top: 50px ;
+    color: #222;
+}
+.cwubutton{
+    position: relative;
+        width: 200px;
+        border: 5px solid #c78c06;
+        padding: 5px;
+        margin: 25px;
+        height: 100px;
+        background-color: #c78c06;
+        z-index: 3;
+        top: 850px;
+        left: 50px;
 }
 .flex-container4{
-    position: inherit;
-    display: flex;
-
-    top: 1001px;
-    width: 759px;
-}
-.aboutus{
-    position: relative;
-    top: 100px;
-    left: 40px;
-    font-size: xx-large;
+    max-width: 760px;
+    background-color: #ffe6ac;
+    position: absolute;
+    top: 1165px;
+    left: 48px;
+    display: block;
+    margin: 0 auto;
+    width: 760px;
+    z-index: -2;
+    height: 675px;
 }
 .aboutusimg{
     position: relative;
-    top: 140px;
+    left: 15px;
+    top: 20px;
+    max-width: 730px;
     border: 5px #ffe6ac;
-    z-index: -2;
+    margin: 15px #ffe6ac;
+   
+    
 }
-.aboutustext{
-    position: relative;
-    top: 120px;
+.aboutus{
+    font-size: x-large;
+    
 }
-
-/* .flex-container5{
+.flex-container5{
     position: absolute; 
     background-color: #ffe6ac;
-    top: 300px; */
+    top: 300px;
   
-/* } */
+}
 .osimg{
 position: relative;
 background-color: none ;
-left: -10px;
+left: -1px;
 width: 0px;
-}
-.bigcontainer{
-    position: absolute;
-    display: block;
-    left: 15px;
 }
 .ourservices{
     position: absolute;
@@ -288,7 +232,7 @@ width: 0px;
     width: 730px;
     height: 280px;
     position: absolute;
-    top: 2100px;
+    top: 2162px;
     left: 60px;
 }
 .titledigital{
@@ -626,11 +570,19 @@ th{
     width: 100%;
     
 }
-
-/* _____________________________________________________________________ */
 /* DESKTOP VERSION */
 @media only screen and (min-width: 760px){
-    
+    max-width: 1200px;
+}
+
+.hyperlinks{
+    font-size: x-large;
+    width: 760px;
+}
+html{
+    max-width: 1200px;
+    width: 760px;
+}
 .homebutton{
     position: relative;
     top: 120px;
@@ -638,46 +590,23 @@ th{
 }
 .flex-container2{
     font-size: x-large;
-    display: flex;
 }
-.navigation{
-    display: flex;
-    grid-template-rows: 1;
-    grid-template-columns: 5;
-    
-}
-.body{
-    background-color: none ;
-    width: 1200px;
-}
-.bannerimage{
-    max-width: 1200px;
-    position: absolute;
-    top: 450px;
-    left: 48px;
-    display: flex;
-    margin: 0;
-    border: 0;
-    padding:0;
-    width: 100%;
-    z-index: -2;
-}
-
-
-
-/* .hyperlinks{
-    font-size: x-large;
-    width: 760px;
-}
-
-
-}
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.navigation{
+    max-width: 760px;
+    list-style-type: none;
+    position: absolute;
+    width: 720px;
+    border: 15px solid #222;
+    padding: 5px;
+    margin: 0px;
+    background-color: #222;
+    text-align: center;
+    top: 175px;
+}
 .a1{
     width: 760px;
     color: #222;
@@ -706,7 +635,16 @@ a{
     left: -8px;
     margin: center ;
 }
-
+.bannerimage{
+    max-width: 760px;
+    position: absolute;
+    top: 450px;
+    left: 48px;
+    display: block;
+    margin: 0 auto;
+    width: 760px;
+    z-index: -2;
+}
 .banner{
     max-width: 760px;
     list-style-type: none;
@@ -1186,4 +1124,4 @@ th{
     background-color: #222;
     color: #c78c06;
     width: 100%;
-}
+    
