@@ -21,6 +21,10 @@ html{
 .flex-container2{
     font-size: x-large;
 }
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 .navigation{
     max-width: 760px;
     list-style-type: none;
@@ -156,13 +160,6 @@ a{
 }
 .aboutus{
     font-size: x-large;
-}
-.flex-container5{
-    position: absolute; 
-    background-color: #ffe6ac;
-    top: 300px;
-    left: ;
-  
 }
 .osimg{
 position: relative;
@@ -532,6 +529,9 @@ hr{
     border-color: #c78c06;
 
 }
+.contactus-message{
+    font-size: larger;
+}
 th{
     background-color: #ffe6ac;
 }
@@ -540,10 +540,12 @@ th{
     height: auto;
 }
 .footer{
-    position: ;
-    bottom: 1px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     text-align: left;
     background-color: #222;
     color: #c78c06;
+    width: 100%;
     
 }
