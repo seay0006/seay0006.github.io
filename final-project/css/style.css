@@ -1,10 +1,11 @@
 /* MOBILE VERSION MOCKUP */
-
+html{
+    max-width: 1200px;
+}
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-@media only screen and (max-width: 760px){
-    max-width: 760px;
+@media only screen and (max-width: 759px){
 }
 
 .search{
@@ -14,6 +15,7 @@ body{
     left: 120px;
 
 }
+
 
 .hyperlinks{
     font-size: x-large;
@@ -136,11 +138,25 @@ a{
 }
 .connectwithus{
     position: relative;
-    left: 10px;
-    top: 1050px;
-
-   
+    left: 90px;
+    top: 170px;
+    color: #222;
+    z-index: 4;
+    
 }
+.arrowrightconnect{
+    position: relative;
+    left: 90px;
+    top: 170px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 12px solid rgb(169, 20, 20);
+    border-bottom: 10px solid transparent;
+    z-index: 5;
+
+}
+
 .connect{
     position: absolute;
     top: 50px ;
@@ -148,15 +164,15 @@ a{
 }
 .cwubutton{
     position: relative;
-        width: 200px;
+        width: 180px;
         border: 5px solid #c78c06;
         padding: 5px;
         margin: 25px;
-        height: 100px;
+        height: 70px;
         background-color: #c78c06;
         z-index: 3;
-        top: 850px;
-        left: 50px;
+        top: 90px;
+        left: 35px;
 }
 .flex-container4{
     max-width: 760px;
@@ -582,7 +598,9 @@ th{
 /* DESKTOP VERSION */
 @media only screen and (min-width: 760px){
 
-.
+.topnav{
+    
+}
 
 
 
